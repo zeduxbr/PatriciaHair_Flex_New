@@ -1,0 +1,26 @@
+.servicosHome__tipo {
+    display: flex;
+    color: #FFFFFF;
+    flex-direction: column;
+    font-family: Cinzel, serif;
+    font-size: 25px;
+    font-weight: 600;
+    justify-content: flex-end;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 4px 4px #000000;
+    width: 100vw;
+}
+
+@media screen and (min-width: 0) {
+    .servicosHome__tipo {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .servicosHome__tipo {
+        font-size: 22px;
+    }
+}

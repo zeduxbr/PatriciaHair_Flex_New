@@ -1,0 +1,29 @@
+.contatos__titulo {
+    color: #6d6875;
+    font-family: Cinzel, serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.contatos__titulo--line {
+    padding-top: 5px;
+}
+
+@media screen and (min-width: 0) {
+    .contatos__titulo {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .contatos__titulo--line {
+        width: 50px;
+        padding: 5px 45%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contatos__titulo {
+        font-size: 22px;
+    }
+}

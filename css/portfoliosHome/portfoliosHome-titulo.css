@@ -1,0 +1,25 @@
+.portfoliosHome__titulo {
+    color: #FFCDB2;
+    font-family: Cinzel, serif;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.portfoliosHome__titulo--line {
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width: 0) {
+    .portfoliosHome__titulo {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .portfoliosHome__titulo {
+        font-size: 22px;
+    }
+}
+

@@ -1,0 +1,23 @@
+
+
+@media screen and (min-width: 0) {
+    .contatos__dados {
+        background-color: #ffffff;
+        border-radius: 25px;
+        margin: 20px auto;
+        padding: 30px 0;
+        width: 96%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .contatos__dados {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: 12rem;
+        padding-top: 6rem;
+        padding-bottom: 5rem;
+        width: 55%;
+    }
+}

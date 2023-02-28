@@ -1,0 +1,25 @@
+.sobre__historia {
+    display: flex;
+    flex-direction: column;    
+}
+
+@media screen and (min-width: 0) {
+    .sobre__historia {
+        align-items: center;
+        background-color: #ffffff;
+        border-radius: 25px;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        margin: 30px auto;
+        width: 96vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__historia {
+        align-items: flex-start;
+        padding-bottom: 10px;
+        padding-left: 230px;
+        width: 50vw;
+    }
+}

@@ -1,0 +1,35 @@
+.cabecalho {
+    display: flex;
+    background: #AC7D88;
+}
+
+@media screen and (min-width: 0) {
+    .cabecalho {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 10px;
+    
+        
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        align-items: flex-end;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .cabecalho {
+        align-items: flex-end;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px 50px;
+    }
+}
+
+

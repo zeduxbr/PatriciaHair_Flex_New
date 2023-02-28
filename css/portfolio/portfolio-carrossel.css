@@ -1,0 +1,38 @@
+.portfolio__carrossel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio__carrossel--coloracao {
+    padding-top: 30px;
+}
+
+.portfolio__carrossel--cortes {
+    padding-top: 30px;
+}
+
+.portfolio__carrossel--penteados {
+    padding-top: 30px;
+}
+
+.portfolio__carrossel--imagem {
+    width: 97%;
+}
+
+@media screen and (min-width: 0) {
+    .swiper {
+        width: 100vw;
+        /* height: 400px; */
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: none;
+    }
+
+    .swiper-pagination {
+        position:initial;
+        /* margin: 0.5em 0; */
+        margin-top: 1em;
+    }
+}

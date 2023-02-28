@@ -1,0 +1,12 @@
+.servicos__coluna02 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    width: 80vw;
+}
+
+@media screen and (min-width: 0) {
+    .servicos__coluna02 {
+        width: 100%;
+    }
+}

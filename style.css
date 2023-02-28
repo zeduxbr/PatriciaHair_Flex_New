@@ -1,0 +1,70 @@
+@import url("./css/reset.css");
+@import url("./css/normalize.css");
+@import url("./css/cabecalho.css");
+@import url("./css/cabecalho/cabecalho-logo.css");
+@import url("./css/cabecalho/cabecalho-menu.css");
+@import url("./css/banner.css");
+@import url("./css/banner/banner-home.css");
+@import url("./css/banner/banner-titulo.css");
+@import url("./css/banner/banner-contato.css");
+@import url("./css/servicosHome.css");
+@import url("./css/titulos.css");
+@import url("./css/titulos-line.css");
+@import url("./css/servicosHome/servicosHome-descricao.css");
+@import url("./css/servicosHome/servicosHome-container.css");
+@import url("./css/servicosHome/servicosHome-imagem.css");
+@import url("./css/servicosHome/servicosHome-tipo.css");
+@import url("./css/servicosHome/servicosHome-informacoes.css");
+@import url("./css/portfolioHome.css");
+@import url("./css/portfoliosHome.css");
+@import url("./css/portfoliosHome/portfoliosHome-titulo.css");
+@import url("./css/portfoliosHome/portfoliosHome-coluna01.css");
+@import url("./css/portfoliosHome/portfoliosHome-linha01.css");
+@import url("./css/portfoliosHome/portfoliosHome-linha01.css");
+@import url("./css/portfoliosHome/portfoliosHome-coluna02.css");
+@import url("./css/portfoliosHome/portfoliosHome-linha02.css");
+@import url("./css/portfoliosHome/portfoliosHome-informacoes.css");
+@import url("./css/sobre.css");
+@import url("./css/sobre/sobre-historia.css");
+@import url("./css/sobre/sobre-titulo.css");
+@import url("./css/sobre/sobre-paragrafo.css");
+@import url("./css/sobre/sobre-valores.css");
+@import url("./css/sobre/sobre-lista.css");
+@import url("./css/sobre/sobre-itens.css");
+@import url("./css/sobre/sobre-foto.css");
+@import url("./css/sobre/sobre-imagem.css");
+@import url("./css/servicos.css");
+@import url("./css/servicos/servicos-coluna01.css");
+@import url("./css/servicos/servicos-background.css");
+@import url("./css/servicos/servicos-linha01.css");
+@import url("./css/servicos/servicos-coluna02.css");
+@import url("./css/servicos/servicos-linha02.css");
+@import url("./css/servicos/servicos-contato.css");
+@import url("./css/portfolio.css");
+@import url("./css/portfolio/portfolio-carrossel.css");
+@import url("./css/portfolio/portfolio-card.css");
+@import url("./css/contatos.css");
+@import url("./css/contatos/contatos-dados.css");
+@import url("./css/contatos/contatos-titulo.css");
+@import url("./css/contatos/contatos-paragrafo.css");
+@import url("./css/contatos/contatos-sociais.css");
+@import url("./css/localizacao/localizacao-mapa.css");
+@import url("./css/rodape.css");
+@import url("./css/contato.css");
+@import url("./css/contato/contato-titulo.css");
+@import url("./css/contato/contato-lista.css");
+@import url("./css/contato/contato-itens.css");
+@import url("./css/sociais.css");
+@import url("./css/sociais/sociais-titulo.css");
+@import url("./css/sociais/sociais-icones.css");
+@import url("./css/sociais/sociais-imagens.css");
+@import url("./css/copyright.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+}
+
+
+body {
+    background-color: var(--cor-de-fundo);
+}

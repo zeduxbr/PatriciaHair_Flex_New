@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Patricia Hair Stylist - Home</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho__logo" src="./img/Logo.png" alt="Logotipo do Site Patricia Hair Stylist">
+        <nav class="cabecalho__menu">
+            <ul class="cabecalho__menu--lista">
+                <li class="cabecalho__menu--item"><a class="cabecalho__menu--link cabecalho__menu--ativo" href="./index.html">Inicio</a></li>
+                <li class="cabecalho__menu--item"><a class="cabecalho__menu--link" href="sobre.html">Sobre</a></li>
+                <li class="cabecalho__menu--item"><a class="cabecalho__menu--link" href="./servicos.html">Serviços</a></li>
+                <li class="cabecalho__menu--item"><a class="cabecalho__menu--link" href="./portfolio.html">Portfólio</a></li>
+                <li class="cabecalho__menu--item"><a class="cabecalho__menu--link" href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner__home">
+                <h2 class="banner__titulo">serviços feitos com carinho para você e por você</h2>
+                <img class="banner__titulo--line" src="./img/Line2.png" alt="">
+                <a class="banner__contato" href="./contato.html">Contato</a>
+            </div>
+        </section>
+
+        <section class="servicosHome">
+            <h2 class="titulos">Serviços</h2>
+            <img class="titulos__line" src="./img/Line_subtitulo.png" alt="">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="servicosHome__container">
+                            <div class="servicosHome__imagem servicosHome__imagem--cortes">
+                                <p class="servicosHome__tipo servicosHome__tipo--cortes">Cortes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="servicosHome__container">    
+                            <div class="servicosHome__imagem servicosHome__imagem--coloracao">
+                                <p class="servicosHome__tipo servicosHome__tipo--coloracao">Coloração</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="servicosHome__container">
+                            <div class="servicosHome__imagem servicosHome__imagem--penteados">
+                                <p class="servicosHome__tipo servicosHome__tipo--penteado">Penteados</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="servicosHome__informacoes">
+            <p class="servicosHome__informacoes--texto">Clique abaixo para mais informações</p>
+            <a class="servicosHome__informacoes--link" href="./servicos.html">Serviços</a>
+        </section>
+
+        <section class="portfolioHome">
+            <div class="portfoliosHome">
+                <h2 class="portfoliosHome__titulo">Portfólio</h2>
+                <img class="portfoliosHome__titulo--line" src="./img/Line3.png" alt="">
+            </div>
+
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img class="portfoliosHome__linha01" src="./img/portfolio1_home_01.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="portfoliosHome__linha01" src="./img/portfolio1_home_02.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="portfoliosHome__linha01" src="./img/portfolio1_home_03.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <section class="portfoliosHome__informacoes">
+                <p class="portfoliosHome__informacoes--texto">Clique abaixo para conhecer mais dos meus trabalhos.</p>
+                <a class="portfoliosHome__informacoes--link" href="./portfolio.html">Portfólio</a>
+            </section>
+        </section>
+
+        <div class="rodape">
+            <div class="contato">
+                <h2 class="contato__titulo">Contato</h2>
+                <img class="contato__titulo--line" src="./img/Line4.png" alt="">
+                <ul class="contato__lista">
+                    <li class="contato__itens"> - (19) 98102-7455 </li>
+                    <li class="contato__itens"> - patrician_silva@yahoo.com.br </li>
+                    <li class="contato__itens"> - Campinas - São Paulo </li>
+                </ul>
+            </div>
+    
+            <div class="sociais">
+                <h2 class="sociais__titulo">Redes Sociais</h2>
+                <img class="sociais__titulo--line" src="./img/Line4.png" alt="">
+                <div class="sociais__icones">
+                    <a class="sociais__links" href="https://www.instagram.com"><img class="sociais__imagens" src="./img/instagram.png" alt=""></a>
+                    <a class="sociais__links" href="https://whatsapp.com"><img class="sociais__imagens" src="./img/whatsapp.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <footer>
+        <p class="copyright">&#169;Patrícia Hair Stylist - Todos os direitos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+</html>

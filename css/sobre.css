@@ -1,0 +1,21 @@
+.sobre {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+@media screen and (min-width: 0) {
+    .sobre {
+        padding: 50px 0px 50px 0px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 100px 0px 100px 0px;
+
+    }
+}

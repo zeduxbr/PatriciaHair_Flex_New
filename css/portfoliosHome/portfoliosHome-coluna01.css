@@ -1,0 +1,13 @@
+.portfoliosHome__coluna01 {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+}
+
+@media screen and (min-width: 1200px) {
+    .portfoliosHome__coluna01 {
+        width: 100%;
+    }
+}

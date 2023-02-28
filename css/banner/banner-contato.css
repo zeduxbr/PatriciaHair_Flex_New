@@ -1,0 +1,26 @@
+.banner__contato {
+    color: #ffffff;
+    display: flex;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: center;
+   
+}
+
+@media screen and (min-width: 0) {
+    .banner__contato {
+        font-size: 14px;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__contato {
+        font-size: 16px;
+        margin: 25px auto;
+    }
+}

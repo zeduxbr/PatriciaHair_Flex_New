@@ -1,0 +1,41 @@
+.portfolio__card {
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 97%;
+}
+
+.portfolio__card--coloracao {
+    background-color: #ffffff;
+    margin: 3em 0;
+}
+
+.portfolio__card--cortes {
+    background-color: #6D6875;
+    margin-bottom: 3em;
+}
+
+.portfolio__card--penteados {
+    background-color: #ffffff;
+    margin-bottom: 3em;
+}
+
+@media screen and (min-width: 0) {
+    .swiper {
+        width: 100vw;
+        height: auto;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: none;
+    }
+
+    .swiper-pagination {
+        position:initial;
+        /* margin: 0.5em 0; */
+        margin-top: 1em;
+    }
+}

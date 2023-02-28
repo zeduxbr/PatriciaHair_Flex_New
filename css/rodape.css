@@ -1,0 +1,25 @@
+.rodape {
+    align-items: flex-start;
+    background: #AC7D88;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 10px 20px 10px;
+}
+
+@media screen and (min-width: 0) {
+    .rodape {
+        /* flex-direction: row;
+        justify-content: flex-start;
+        align-items: center; */
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 0) {
+    .rodape {
+        padding: 20px 30px;
+    }
+}

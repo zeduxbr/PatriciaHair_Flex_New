@@ -1,0 +1,49 @@
+.banner__home {
+    background-image: url(../../img/banner.png);
+    background-repeat: no-repeat;
+    /* background: center no-repeat cover; */
+    background-size: 160% 100%;
+    filter: brightness(70%);
+    width: 100vw;
+    height: auto;
+}
+
+.banner__home--sobre {
+    background-image: url(../../img/banner-sobre.jpg);
+    background-repeat: no-repeat;
+    /* background: center no-repeat cover; */
+    background-size: 160% 100%;
+    filter: brightness(60%);
+    width: 100vw;
+    height: auto;
+}
+
+.banner__home--servicos {
+    background-image: url(../../img/banner_servicos.jpg);
+    background-repeat: no-repeat;
+    /* background: center no-repeat cover; */
+    background-size: 160% 100%;
+    filter: brightness(60%);
+    width: 100%;
+    height: auto;
+}
+
+.banner__home--portfolio {
+    background-image: url(../../img/banner_portifolio.jpg);
+    background-repeat: no-repeat;
+    /* background: center no-repeat cover; */
+    background-size: 160% 100%;
+    filter: brightness(60%);
+    width: 100vw;
+    height: auto;
+}
+
+.banner__home--contato {
+    background-image: url(../../img/banner_contato.jpg);
+    background-repeat: no-repeat;
+    /* background: center no-repeat cover; */
+    background-size: 160% 100%;
+    filter: brightness(60%);
+    width: 100%;
+    height: auto;
+}

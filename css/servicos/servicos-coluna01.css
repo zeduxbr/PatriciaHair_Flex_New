@@ -1,0 +1,14 @@
+.servicos__coluna01 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+}
+
+@media screen and (min-width: 0) {
+    .servicos__coluna01 {
+        width: 100%;
+    }
+
+    
+}

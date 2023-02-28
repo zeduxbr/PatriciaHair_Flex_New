@@ -1,0 +1,32 @@
+.portfoliosHome {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+    padding: 30px;
+    text-align: center;
+
+}
+
+@media screen and (min-width: 0) {
+    .swiper {
+        width: 100vw;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: none;
+    }
+
+    .swiper-pagination {
+        position:initial;
+        /* margin: 0.5em 0; */
+        margin-top: 0.5em;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: #ffcdb2;
+    }
+}

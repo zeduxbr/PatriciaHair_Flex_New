@@ -1,0 +1,19 @@
+.contatos__paragrafo {
+    color: #6d6875;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0.07rem;
+    line-height: 0.8rem;
+    padding-top: 1.2rem;
+}
+
+.contatos__paragrafo:last-child {
+    padding-top: 0;
+}
+
+@media screen and (min-width: 0) {
+    .contatos__paragrafo {
+        font-size: 14px;
+        padding-left: 30px;
+    }
+}

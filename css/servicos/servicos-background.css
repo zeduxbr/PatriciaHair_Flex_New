@@ -1,0 +1,91 @@
+.servicos__background--corte {
+    background-image: url('../../img/servicos_corte.jpg');
+}
+
+.servicos__background--coloracao {
+    background-image: url('../../img/servicos_coloracao.jpg');
+}
+
+.servicos__background--penteado {
+    background-image: url('../../img/servicos_penteado.jpg');
+}
+
+.servicos__background--escova {
+    background-image: url('../../img/servicos_escova.jpg');
+}
+
+.servicos__background--hidratacao {
+    background-image: url('../../img/servicos_hidratacao.jpg');
+}
+
+@media screen and (min-width: 0) {
+
+    .servicos__carrossel--imagem {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        filter: brightness(75%);
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 400px;
+        width: 100vw;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    
+}
+
+@media screen and (min-width: 1728px) {
+    .servicos__background--linha01 {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        filter: brightness(75%);
+        flex-direction: row;
+        height: 400px;
+        transition: height 1s, width 1s;
+        width: 610px;
+        justify-content: center;
+        align-items: flex-end;
+        margin-right: 30px;
+    }
+    
+    .servicos__background--linha01:last-child {
+        margin-right: 0;
+    }
+    
+    .servicos__background--linha01:hover {
+        filter: brightness(55%);
+        height: 440px;
+        width: 620px;
+    }
+    
+    .servicos__background--linha02 {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        filter: brightness(75%);
+        flex-direction: row;
+        height: 400px;
+        transition: height 1s, width 1s;
+        width: 397px;
+        justify-content: center;
+        align-items: flex-end;
+        margin-right: 30px;
+    }
+    
+    .servicos__background--linha02:last-child {
+        margin-right: 0;
+    }
+    
+    .servicos__background--linha02:hover {
+        filter: brightness(55%);
+        height: 430px;
+        width: 415px;
+    }
+
+}

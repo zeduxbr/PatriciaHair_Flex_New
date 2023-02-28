@@ -1,0 +1,31 @@
+.sobre__paragrafo {
+    color: #6d6875;
+    font-family: Roboto;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sobre__paragrafo:last-child {
+    padding-top: 0;
+}
+
+@media screen and (min-width: 0) {
+    .sobre__paragrafo {
+        font-size: 14px;
+        padding: 10px 20px 5px 20px;
+    }
+
+    .sobre__paragrafo:last-child {
+        padding-top: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__paragrafo {
+        font-size: 16px;
+        padding: 10px 0 5px 0;
+    }
+}

@@ -1,0 +1,25 @@
+.sobre__valores {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 0) {
+    .sobre__valores {
+        align-items: center;
+        background-color: #ffffff;
+        border-radius: 25px;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        margin: 20px auto;
+        width: 96vw;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__valores {
+        align-items: flex-start;
+        padding-left: 200px;
+        width: 50vw;
+    }
+}

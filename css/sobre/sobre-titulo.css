@@ -1,0 +1,23 @@
+.sobre__titulo {
+    color: #6d6875;
+    font-family: Cinzel, serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.sobre__titulo--line {
+    padding-top: 5px;
+}
+
+@media screen and (min-width: 0) {
+    .sobre__titulo {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__titulo {
+        font-size: 22px;
+    }
+}

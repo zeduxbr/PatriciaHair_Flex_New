@@ -1,0 +1,17 @@
+@media screen and (min-width: 0) {
+    .titulos__line {
+        padding-top: 5px;
+    }
+
+    .titulos__line--cortes {
+    color: #FFCDB2;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .titulos__line {
+        padding-bottom: 30px;
+        padding-top: 8px;
+
+    }
+}
